@@ -41,7 +41,7 @@ class Parse
 
 
 
-            var matches1 = pattern.Matches(leftSide); //Разделяем на слагаемые
+            var matches1 = pattern.Matches(leftSide); 
             foreach (var a in matches1)
             {
                 var splitStr = a.ToString().Split('x');
